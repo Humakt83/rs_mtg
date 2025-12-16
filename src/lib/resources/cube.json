@@ -87,7 +87,10 @@
     {
         "name": "Agate Instigator",
         "colors": ["R"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "power": "1",
+        "toughness": "3",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=671138&type=card"
     },
     {
         "name": "Agent of Acquisitions",
@@ -211,7 +214,8 @@
         "name": "Alania, Divergent Storm",
         "colors": ["R", "U"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=669118&type=card"
     },
     {
         "name": "Alibou, Ancient Witness",
@@ -253,13 +257,18 @@
         ],
         "types": [
             "Sorcery"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=476458&type=card"
     },
     {
         "name": "Alpharael, Stonechosen",
         "colors": ["B"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 5,
+        "power": 3,
+        "toughness": 3,
+        "imageUrl": "https://cards.scryfall.io/small/front/3/3/33063d26-37f7-4e35-8da2-5770dfabdc41.jpg?1752946907"
     },
     {
         "name": "Alrund's Epiphany",
@@ -312,7 +321,8 @@
         ],
         "types": [
             "Instant"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=679902&type=card"
     },
     {
         "name": "Anax, Hardened in the Forge",
@@ -351,7 +361,8 @@
         ],
         "types": [
             "Instant"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=509516&type=card"
     },
     {
         "name": "Angel of Finality",
@@ -622,7 +633,8 @@
             "Soldier"
         ],
         "power": "0",
-        "toughness": "0"
+        "toughness": "0",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=522260&type=card"
     },
     {
         "name": "Archmage of Echoes",
@@ -851,7 +863,8 @@
             "Monk"
         ],
         "power": "1",
-        "toughness": "1"
+        "toughness": "1",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=539393&type=card"
     },
     {
         "name": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
@@ -905,7 +918,11 @@
     {
         "name": "Azlask, the Swelling Scourge",
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 3,
+        "power": 2,
+        "toughness": 2,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=665326&type=card"
     },
     {
         "name": "Azorius Signet",
@@ -999,7 +1016,11 @@
         "name": "Basri, Tomorrow's Champion",
         "colors": ["W"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 1,
+        "power": 2,
+        "toughness": 1,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=690440&type=card"
     },
     {
         "name": "Battlefield Forge",
@@ -1504,7 +1525,8 @@
         ],
         "supertypes": [
             "Legendary"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373603&type=card"
     },
     {
         "name": "Braids, Arisen Nightmare",
@@ -1993,7 +2015,8 @@
             "Warrior"
         ],
         "power": "3",
-        "toughness": "3"
+        "toughness": "3",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=522227&type=card"
     },
     {
         "name": "Chemister's Insight",
@@ -2022,7 +2045,8 @@
         ],
         "types": [
             "Artifact"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=522229&type=card"
     },
     {
         "name": "Chromatic Lantern",
@@ -2058,7 +2082,11 @@
         "name": "Chun-Li, Countless Kicks",
         "colors": ["W", "U"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 3,
+        "power": "3",
+        "toughness": "3",
+        "imageUrl": "https://cards.scryfall.io/small/front/c/2/c22ee4a5-c74b-46eb-b709-808ebc803757.jpg?1757465831"
     },
     {
         "name": "Claim Jumper",
@@ -2222,7 +2250,8 @@
     {
         "name": "Come Back Wrong",
         "colors": ["B"],
-        "types": ["Sorcery"]
+        "types": ["Sorcery"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=673491&type=card"
     },
     {
         "name": "Command Tower",
@@ -2258,7 +2287,8 @@
             "Wall"
         ],
         "power": "0",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=540947&type=card"
     },
     {
         "name": "Condemn",
@@ -2348,7 +2378,11 @@
     {
         "name": "Coruscation Mage",
         "colors": ["R"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 2,
+        "power": 2,
+        "toughness": 2,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=669045&type=card"
     },
     {
         "name": "Cosima, God of the Voyage // The Omenkeel",
@@ -2386,7 +2420,7 @@
         "types": [
             "Instant"
         ],
-        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=699&type=card"
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=675987&type=card"
     },
     {
         "name": "Courier's Capsule",
@@ -2690,12 +2724,17 @@
         "types": [
             "Artifact",
             "Land"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=676142&type=card"
     },
     {
         "name": "Darkstar Augur",
         "colors": ["B"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 3,
+        "power": 2,
+        "toughness": 3,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=669004&type=card"
     },
     {
         "name": "Darksteel Juggernaut",
@@ -2714,7 +2753,11 @@
     },
     {
         "name": "Dauntless Scrapbot",
-        "types": ["Creature", "Artifact"]
+        "types": ["Creature", "Artifact"],
+        "cmc": 3,
+        "power": 3,
+        "toughness": 1,
+        "imageUrl": "https://cards.scryfall.io/small/front/0/e/0efe5342-42b7-4f49-b4b4-d77055508c4d.jpg?1752947526"
     },
     {
         "name": "Dauthi Voidwalker",
@@ -2929,7 +2972,8 @@
             "Druid"
         ],
         "power": "1",
-        "toughness": "1"
+        "toughness": "1",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=464110&type=card"
     },
     {
         "name": "Delina, Wild Mage",
@@ -2989,7 +3033,7 @@
         "types": [
             "Sorcery"
         ],
-        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=657&type=card"
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=622758&type=card"
     },
     {
         "name": "Demonlord of Ashmouth",
@@ -3130,7 +3174,8 @@
         ],
         "types": [
             "Instant"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=397830&type=card"
     },
     {
         "name": "Dispeller's Capsule",
@@ -3207,7 +3252,8 @@
         ],
         "subtypes": [
             "Equipment"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=435392&type=card"
     },
     {
         "name": "Drafna, Founder of Lat-Nam",
@@ -3611,7 +3657,10 @@
     {
         "name": "Elegy Acolyte",
         "colors": ["B"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "power": "4",
+        "toughness": "4",
+        "imageUrl": "https://cards.scryfall.io/small/front/c/6/c69ed7c7-1f49-4299-b3e6-75150258ac59.jpg?1752946946"
     },
     {
         "name": "Elesh Norn, Grand Cenobite",
@@ -3723,7 +3772,8 @@
         ],
         "subtypes": [
             "Elspeth"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=476265&type=card"
     },
     {
         "name": "Elusive Tormentor // Insidious Mist",
@@ -3744,7 +3794,8 @@
             "Wizard"
         ],
         "power": "4",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409855&type=card"
     },
     {
         "name": "Elvish Archdruid",
@@ -3871,7 +3922,8 @@
             "Wizard"
         ],
         "power": "0",
-        "toughness": "1"
+        "toughness": "1",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=194903&type=card"
     },
     {
         "name": "Entrapment Maneuver",
@@ -4276,7 +4328,8 @@
             "Warlock"
         ],
         "power": "2",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=516912&type=card"
     },
     {
         "name": "Ezuri's Predation",
@@ -4434,7 +4487,8 @@
     {
         "name": "Fecund Greenshell",
         "colors": ["G"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=669085&type=card"
     },
     {
         "name": "Feldon of the Third Path",
@@ -4466,7 +4520,8 @@
         "cmc": 2,
         "types": [
             "Artifact"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=696474&type=card"
     },
     {
         "name": "Fiendlash",
@@ -4522,7 +4577,8 @@
         "name": "Flubs, the Fool",
         "colors": ["R", "U", "G"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=670972&type=card"
     },
     {
         "name": "Foe-Razer Regent",
@@ -4684,7 +4740,8 @@
             "Druid"
         ],
         "power": "1",
-        "toughness": "1"
+        "toughness": "1",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=555349&type=card"
     },
     {
         "name": "Galadhrim Brigade",
@@ -4773,7 +4830,8 @@
             "Dragon"
         ],
         "power": "3",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=513681&type=card"
     },
     {
         "name": "Galecaster Colossus",
@@ -5042,7 +5100,8 @@
             "Wizard"
         ],
         "power": "4",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=534874&type=card"
     },
     {
         "name": "Glare of Subdual",
@@ -5211,7 +5270,8 @@
             "Golem"
         ],
         "power": "4",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=439842&type=card"
     },
     {
         "name": "Goldmire Bridge",
@@ -5480,7 +5540,8 @@
         ],
         "supertypes": [
             "Legendary"
-        ]
+        ],
+        "imageUrl": "https://cards.scryfall.io/small/front/9/0/900de725-741b-4b25-8e40-78ed7575a83f.jpg?1752944735"
     },
     {
         "name": "Hangarback Walker",
@@ -5549,7 +5610,8 @@
     },
     {
         "name": "Haunted Screen",
-        "types": ["Artifact"]
+        "types": ["Artifact"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=673655&type=card"
     },
     {
         "name": "Haywire Mite",
@@ -5725,7 +5787,8 @@
             "Vampire"
         ],
         "power": "1",
-        "toughness": "3"
+        "toughness": "3",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=540967&type=card"
     },
     {
         "name": "Henzie \"Toolbox\" Torre",
@@ -6144,7 +6207,8 @@
         ],
         "types": [
             "Sorcery"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=513521&type=card"
     },
     {
         "name": "Inkshield",
@@ -6196,7 +6260,8 @@
         ],
         "types": [
             "Sorcery"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=491690&type=card"
     },
     {
         "name": "Insidious Will",
@@ -6497,7 +6562,8 @@
             "Druid"
         ],
         "power": "1",
-        "toughness": "1"
+        "toughness": "1",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=193462&type=card"
     },
     {
         "name": "Joraga Warcaller",
@@ -6661,7 +6727,8 @@
             "Golem"
         ],
         "power": "4",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=382984&type=card"
     },
     {
         "name": "Kazuul, Tyrant of the Cliffs",
@@ -6756,7 +6823,10 @@
         "name": "Ken, Burning Brawler",
         "colors": ["R"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "power": "4",
+        "toughness": "2",
+        "imageUrl": "https://cards.scryfall.io/small/front/6/8/684f54a1-caf1-499e-aa71-e081a4dd916d.jpg?1757465283"
     },
     {
         "name": "Kess, Dissident Mage",
@@ -6877,7 +6947,8 @@
             "God"
         ],
         "power": "4",
-        "toughness": "5"
+        "toughness": "5",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=476471&type=card"
     },
     {
         "name": "Knight of Autumn",
@@ -7017,7 +7088,8 @@
         ],
         "types": [
             "Enchantment"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=662217&type=card"
     },
     {
         "name": "Krark, the Thumbless",
@@ -7362,7 +7434,8 @@
             "Dragon"
         ],
         "power": "4",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=696377&type=card"
     },
     {
         "name": "Liberator, Urza's Battlethopter",
@@ -7435,7 +7508,7 @@
         "types": [
             "Instant"
         ],
-        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=806&type=card"
+        "imageUrl": "https://cards.scryfall.io/small/front/6/5/6580f4f9-870b-4258-8dce-48c606b90a6c.jpg?1755521867"
     },
     {
         "name": "Lingering Souls",
@@ -7591,7 +7664,8 @@
         ],
         "types": [
             "Instant"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=513691&type=card"
     },
     {
         "name": "Losheel, Clockwork Scholar",
@@ -7619,7 +7693,8 @@
     },
     {
         "name": "Lothlorien Blade",
-        "types": ["Artifact"]
+        "types": ["Artifact"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=620763&type=card"
     },
     {
         "name": "Loxodon Warhammer",
@@ -7870,7 +7945,8 @@
     },
     {
         "name": "Mardu Monument",
-        "types": ["Artifact"]
+        "types": ["Artifact"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=693725&type=card"
     },
     {
         "name": "Martial Coup",
@@ -7910,7 +7986,8 @@
         ],
         "subtypes": [
             "Equipment"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=676018&type=card"
     },
     {
         "name": "Master of Etherium",
@@ -7999,7 +8076,11 @@
         "name": "Mendicant Core, Guidelight",
         "colors": ["W", "U"],
         "supertypes": ["Legendary"],
-        "types": ["Creature", "Artifact"]
+        "cmc": 2,
+        "types": ["Creature", "Artifact"],
+        "power": "*",
+        "toughness": "3",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=690650&type=card"
     },
     {
         "name": "Merciless Eviction",
@@ -8139,7 +8220,8 @@
         ],
         "types": [
             "Sorcery"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=425902&type=card"
     },
     {
         "name": "Mind Stone",
@@ -8317,7 +8399,9 @@
     {
         "name": "Mists of Lorien",
         "colors": ["U"],
-        "types": ["Sorcery"]
+        "types": ["Sorcery"],
+        "cmc": 3,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=636345&type=card"
     },
     {
         "name": "Mistvault Bridge",
@@ -8401,7 +8485,8 @@
         "cmc": 2,
         "types": [
             "Artifact"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=535052&type=card"
     },
     {
         "name": "Moonveil Regent",
@@ -8420,7 +8505,8 @@
             "Dragon"
         ],
         "power": "4",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=534928&type=card"
     },
     {
         "name": "Morbid Opportunist",
@@ -8440,7 +8526,8 @@
             "Rogue"
         ],
         "power": "1",
-        "toughness": "3"
+        "toughness": "3",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=696344&type=card"
     },
     {
         "name": "Mother of Runes",
@@ -8730,13 +8817,17 @@
             "Kraken"
         ],
         "power": "2",
-        "toughness": "3"
+        "toughness": "3",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=650206&type=card"
     },
     {
         "name": "Nadu, Winged Wisdom",
         "colors": ["G", "U"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "power": "3",
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=662345&type=card"
     },
     {
         "name": "Narset, Enlightened Master",
@@ -9091,7 +9182,8 @@
             "God"
         ],
         "power": "6",
-        "toughness": "6"
+        "toughness": "6",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373559&type=card"
     },
     {
         "name": "O-Kagachi, Vengeful Kami",
@@ -9421,7 +9513,9 @@
     },
     {
         "name": "Patchwork Banner",
-        "types": ["Artifact"]
+        "types": ["Artifact"],
+        "cmc": 3,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=669161&type=card"
     },
     {
         "name": "Path of Ancestry",
@@ -9674,7 +9768,11 @@
     {
         "name": "Pollywog Prodigy",
         "colors": ["U"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 2,
+        "power": 1,
+        "toughness": 3,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=671132&type=card"
     },
     {
         "name": "Ponder",
@@ -9880,7 +9978,8 @@
             "Wizard"
         ],
         "power": "2",
-        "toughness": "3"
+        "toughness": "3",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373635&type=card"
     },
     {
         "name": "Prosperous Partnership",
@@ -9936,7 +10035,8 @@
             "God"
         ],
         "power": "7",
-        "toughness": "6"
+        "toughness": "6",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=476401&type=card"
     },
     {
         "name": "Quasiduplicate",
@@ -9971,7 +10071,8 @@
             "Ranger"
         ],
         "power": "1",
-        "toughness": "1"
+        "toughness": "1",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=526256&type=card"
     },
     {
         "name": "Radiant Solar",
@@ -10241,7 +10342,8 @@
             "Unicorn"
         ],
         "power": "*",
-        "toughness": "*"
+        "toughness": "*",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=629526&type=card"
     },
     {
         "name": "Relic of Sauron",
@@ -10274,12 +10376,14 @@
             "Kraken"
         ],
         "power": "6",
-        "toughness": "6"
+        "toughness": "6",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=555257&type=card"
     },
     {
         "name": "Response / Resurgence",
         "colors": ["R", "W"],
-        "types": ["Instant"]
+        "types": ["Instant"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=643254&type=card"
     },
     {
         "name": "Return to Dust",
@@ -10472,7 +10576,9 @@
     {
         "name": "Rootcast Apprenticeship",
         "colors": ["G"],
-        "types": ["Sorcery"]
+        "types": ["Sorcery"],
+        "cmc": 4,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=671149&type=card"
     },
     {
         "name": "Rubinia Soulsinger",
@@ -10498,7 +10604,8 @@
             "Faerie"
         ],
         "power": "2",
-        "toughness": "3"
+        "toughness": "3",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=430410&type=card"
     },
     {
         "name": "Ruin Grinder",
@@ -10536,7 +10643,10 @@
     {
         "name": "Rust Harvester",
         "colors": ["R"],
-        "types": ["Creature", "Artifact"]
+        "types": ["Creature", "Artifact"],
+        "power": "1",
+        "toughness": "1",
+        "imageUrl": "https://cards.scryfall.io/small/front/1/7/17e352ac-d0a7-40cf-9362-4f81cfabb2c5.jpg?1762513705"
     },
     {
         "name": "Rustvale Bridge",
@@ -10548,7 +10658,8 @@
         "types": [
             "Artifact",
             "Land"
-        ]
+        ],
+        "imageUrl": "https://cards.scryfall.io/small/front/d/a/da54e458-1d4f-45f0-a225-99eb9c4049fb.jpg?1752945469"
     },
     {
         "name": "Ruthless Knave",
@@ -10596,7 +10707,11 @@
         "name": "Ryu, World Warrior",
         "colors": ["W"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 3,
+        "power": 2,
+        "toughness": 4,
+        "imageUrl": "https://cards.scryfall.io/small/front/d/6/d65a3a8b-ebf8-4e51-8b57-5b14e5cb7abb.jpg?1757465192"
     },
     {
         "name": "Sakura-Tribe Elder",
@@ -10861,7 +10976,10 @@
     {
         "name": "Screaming Nemesis",
         "colors": ["R"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "power": "3",
+        "toughness": "3",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=673562&type=card"
     },
     {
         "name": "Scroll of the Masters",
@@ -10923,7 +11041,8 @@
             "Warlock"
         ],
         "power": "3",
-        "toughness": "2"
+        "toughness": "2",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=513563&type=card"
     },
     {
         "name": "Seedborn Muse",
@@ -11064,7 +11183,11 @@
         "name": "Senu, Keen-Eyed Protector",
         "colors": ["W"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 2,
+        "power": 2,
+        "toughness": 1,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=667598&type=card"
     },
     {
         "name": "Shadow Puppeteers",
@@ -11462,7 +11585,8 @@
             "Soldier"
         ],
         "power": "2",
-        "toughness": "2"
+        "toughness": "2",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=463978&type=card"
     },
     {
         "name": "Skemfar Avenger",
@@ -11577,7 +11701,8 @@
         "types": [
             "Artifact",
             "Land"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=522332&type=card"
     },
     {
         "name": "Slip Out the Back",
@@ -11632,7 +11757,8 @@
             "Egg"
         ],
         "power": "0",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=534939&type=card"
     },
     {
         "name": "Smoldering Marsh",
@@ -11731,7 +11857,8 @@
         ],
         "types": [
             "Instant"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=491765&type=card"
     },
     {
         "name": "Soul Snare",
@@ -11915,7 +12042,8 @@
             "Druid"
         ],
         "power": "1",
-        "toughness": "1"
+        "toughness": "1",
+        "imageUrl": "https://cards.scryfall.io/small/front/6/5/6520f5dc-ead8-40c5-af1c-411fea2ba268.jpg?1752944431"
     },
     {
         "name": "Sprout Swarm",
@@ -12127,7 +12255,8 @@
     {
         "name": "Strix Serenade",
         "colors": ["U"],
-        "types": ["Instant"]
+        "types": ["Instant"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=662223&type=card"
     },
     {
         "name": "Sudden Spoiling",
@@ -12288,7 +12417,7 @@
         "types": [
             "Instant"
         ],
-        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=869&type=card"
+        "imageUrl": "https://cards.scryfall.io/small/front/0/e/0e7ff4dc-af63-4342-9a44-d059e62bd14c.jpg?1752944384"
     },
     {
         "name": "Sylvan Offering",
@@ -12415,7 +12544,8 @@
         ],
         "types": [
             "Artifact"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=650335&type=card"
     },
     {
         "name": "Talisman of Hierarchy",
@@ -12528,7 +12658,8 @@
         "types": [
             "Artifact",
             "Land"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=522333&type=card"
     },
     {
         "name": "Tasigur, the Golden Fang",
@@ -12681,7 +12812,8 @@
     },
     {
         "name": "Temur Monument",
-        "types": ["Artifact"]
+        "types": ["Artifact"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=693728&type=card"
     },
     {
         "name": "Tendershoot Dryad",
@@ -12700,7 +12832,8 @@
             "Dryad"
         ],
         "power": "2",
-        "toughness": "2"
+        "toughness": "2",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=439804&type=card"
     },
     {
         "name": "Terastodon",
@@ -12805,7 +12938,8 @@
         "cmc": 2,
         "types": [
             "Artifact"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=435408&type=card"
     },
     {
         "name": "The Balrog of Moria",
@@ -12836,7 +12970,9 @@
     {
         "name": "The Dominion Bracelet",
         "supertypes": ["Legendary"],
-        "types": ["Artifact"]
+        "types": ["Artifact"],
+        "cmc": 2,
+        "imageUrl": "https://cards.scryfall.io/small/front/f/5/f5360880-2849-45d6-b1aa-08c7e01083af.jpg?1752947533"
     },
     {
         "name": "The Locust God",
@@ -13049,7 +13185,8 @@
         "types": [
             "Artifact",
             "Land"
-        ]
+        ],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=522334&type=card"
     },
     {
         "name": "Thought Vessel",
@@ -13177,7 +13314,11 @@
     {
         "name": "Thundertrap Trainer",
         "colors": ["U"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "cmc": 2,
+        "power": 1,
+        "toughness": 2,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=668992&type=card"
     },
     {
         "name": "Timberwatch Elf",
@@ -14129,7 +14270,10 @@
         "name": "Vren, the Relentless",
         "colors": ["B", "U"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "power": "3",
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=669153&type=card"
     },
     {
         "name": "Wand of Orcus",
@@ -14170,7 +14314,8 @@
     {
         "name": "Wear Down",
         "colors": ["G"],
-        "types": ["Sorcery"]
+        "types": ["Sorcery"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=669117&type=card"
     },
     {
         "name": "Weathered Wayfarer",
@@ -14249,7 +14394,7 @@
         "types": [
             "Instant"
         ],
-        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=4743&type=card"
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=397548&type=card"
     },
     {
         "name": "Wildborn Preserver",
@@ -14378,7 +14523,8 @@
             "Horror"
         ],
         "power": "3",
-        "toughness": "2"
+        "toughness": "2",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=696357&type=card"
     },
     {
         "name": "Wood Elves",
@@ -14471,7 +14617,8 @@
     {
         "name": "Wurmcoil Larva",
         "colors": ["B"],
-        "types": ["Artifact"]
+        "types": ["Artifact"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=662264&type=card"
     },
     {
         "name": "Xanathar, Guild Kingpin",
@@ -14521,7 +14668,8 @@
             "Boar"
         ],
         "power": "4",
-        "toughness": "4"
+        "toughness": "4",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=491891&type=card"
     },
     {
         "name": "Yasova Dragonclaw",
@@ -14696,7 +14844,8 @@
         "name": "Zinnia, Valley's Voice",
         "colors": ["W", "R", "U"],
         "supertypes": ["Legendary"],
-        "types": ["Creature"]
+        "types": ["Creature"],
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=670839&type=card"
     },
     {
         "name": "Zirilan of the Claw",

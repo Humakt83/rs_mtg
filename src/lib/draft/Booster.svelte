@@ -129,10 +129,12 @@
           border-radius: 15px;
           width: 100%;
           max-height: 100%;
-          &.highlighted,
           &:hover,
           &:focus {
             border: 2px solid $highlight-color;
+          }
+          &.highlighted {
+            border: 2px solid $red-primary;
           }
         }
       }

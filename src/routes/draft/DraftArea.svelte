@@ -59,10 +59,10 @@
         font-weight: bolder;
         border-radius: 2px;
         &:hover {
-            background-color: darken($background-color, 10);
+          background-color: darken($background-color, 10);
         }
         &:disabled {
-            background-color: lighten($color: $background-color, $amount: 20);
+          background-color: lighten($background-color, 20);
         }
     }
 
