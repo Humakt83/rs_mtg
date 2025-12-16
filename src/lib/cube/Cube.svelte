@@ -1,6 +1,7 @@
 <script>
   export let cube;
   import SectionContainer from './SectionContainer.svelte';
+  import { Colors } from '../colors';
 
   let cardToShow = null;
 
@@ -26,22 +27,22 @@
   {/if}
   <div class="cube_content">
     <SectionContainer sectionName="White" cards={getCardsByColors(['W'])} showCard={showCard} sectionIcon="ms-w"></SectionContainer>
-    <SectionContainer sectionName="Blue" cards={getCardsByColors(['U'])} showCard={showCard} sectionIcon="ms-u"></SectionContainer>
-    <SectionContainer sectionName="Black" cards={getCardsByColors(['B'])} showCard={showCard} sectionIcon="ms-b"></SectionContainer>
-    <SectionContainer sectionName="Red" cards={getCardsByColors(['R'])} showCard={showCard} sectionIcon="ms-r"></SectionContainer>
-    <SectionContainer sectionName="Green" cards={getCardsByColors(['G'])} showCard={showCard} sectionIcon="ms-g"></SectionContainer>
+    <SectionContainer sectionName="Blue" cards={getCardsByColors(['U'])} showCard={showCard} sectionIcon="ms-u" backgroundColor={Colors.blueSecondary} highLightColor={Colors.bluePrimary}></SectionContainer>
+    <SectionContainer sectionName="Black" cards={getCardsByColors(['B'])} showCard={showCard} sectionIcon="ms-b" fontColor={Colors.whitePrimary} backgroundColor={Colors.blackSecondary} highLightColor={Colors.blackPrimary}></SectionContainer>
+    <SectionContainer sectionName="Red" cards={getCardsByColors(['R'])} showCard={showCard} sectionIcon="ms-r" backgroundColor={Colors.redSecondary} highLightColor={Colors.redPrimary}></SectionContainer>
+    <SectionContainer sectionName="Green" cards={getCardsByColors(['G'])} showCard={showCard} sectionIcon="ms-g" backgroundColor={Colors.greenSecondary} highLightColor={Colors.greenPrimary}></SectionContainer>
 
-    <SectionContainer sectionName="Azorius" cards={getCardsByColors(['W', 'U'])} showCard={showCard} sectionIcon="ms-guild-azorius"></SectionContainer>
-    <SectionContainer sectionName="Dimir" cards={getCardsByColors(['U', 'B'])} showCard={showCard} sectionIcon="ms-guild-dimir"></SectionContainer>
-    <SectionContainer sectionName="Rakdos" cards={getCardsByColors(['B', 'R'])} showCard={showCard} sectionIcon="ms-guild-rakdos"></SectionContainer>
-    <SectionContainer sectionName="Gruul" cards={getCardsByColors(['R', 'G'])} showCard={showCard} sectionIcon="ms-guild-gruul"></SectionContainer>
-    <SectionContainer sectionName="Selesnya" cards={getCardsByColors(['G', 'W'])} showCard={showCard} sectionIcon="ms-guild-selesnya"></SectionContainer>
+    <SectionContainer sectionName="Azorius" cards={getCardsByColors(['W', 'U'])} showCard={showCard} sectionIcon="ms-guild-azorius" backgroundColor={[Colors.whiteSecondary, Colors.blueSecondary]}></SectionContainer>
+    <SectionContainer sectionName="Dimir" cards={getCardsByColors(['U', 'B'])} showCard={showCard} sectionIcon="ms-guild-dimir" backgroundColor={[Colors.blueSecondary, Colors.blackSecondary]}></SectionContainer>
+    <SectionContainer sectionName="Rakdos" cards={getCardsByColors(['B', 'R'])} showCard={showCard} sectionIcon="ms-guild-rakdos" backgroundColor={[Colors.blackSecondary, Colors.redSecondary]}></SectionContainer>
+    <SectionContainer sectionName="Gruul" cards={getCardsByColors(['R', 'G'])} showCard={showCard} sectionIcon="ms-guild-gruul" backgroundColor={[Colors.redSecondary, Colors.greenSecondary]}></SectionContainer>
+    <SectionContainer sectionName="Selesnya" cards={getCardsByColors(['G', 'W'])} showCard={showCard} sectionIcon="ms-guild-selesnya" backgroundColor={[Colors.greenSecondary, Colors.whiteSecondary]}></SectionContainer>
 
-    <SectionContainer sectionName="Orzhov" cards={getCardsByColors(['W', 'B'])} showCard={showCard} sectionIcon="ms-guild-orzhov"></SectionContainer>
-    <SectionContainer sectionName="Boros" cards={getCardsByColors(['W', 'R'])} showCard={showCard} sectionIcon="ms-guild-boros"></SectionContainer>
-    <SectionContainer sectionName="Izzet" cards={getCardsByColors(['U', 'R'])} showCard={showCard} sectionIcon="ms-guild-izzet"></SectionContainer>
-    <SectionContainer sectionName="Simic" cards={getCardsByColors(['U', 'G'])} showCard={showCard} sectionIcon="ms-guild-simic"></SectionContainer>
-    <SectionContainer sectionName="Golgari" cards={getCardsByColors(['G', 'B'])} showCard={showCard} sectionIcon="ms-guild-golgari"></SectionContainer>
+    <SectionContainer sectionName="Orzhov" cards={getCardsByColors(['W', 'B'])} showCard={showCard} sectionIcon="ms-guild-orzhov" backgroundColor={[Colors.whiteSecondary, Colors.blackSecondary]}></SectionContainer>
+    <SectionContainer sectionName="Boros" cards={getCardsByColors(['W', 'R'])} showCard={showCard} sectionIcon="ms-guild-boros" backgroundColor={[Colors.redSecondary, Colors.whiteSecondary]}></SectionContainer>
+    <SectionContainer sectionName="Izzet" cards={getCardsByColors(['U', 'R'])} showCard={showCard} sectionIcon="ms-guild-izzet" backgroundColor={[Colors.blueSecondary, Colors.redSecondary]}></SectionContainer>
+    <SectionContainer sectionName="Simic" cards={getCardsByColors(['U', 'G'])} showCard={showCard} sectionIcon="ms-guild-simic" backgroundColor={[Colors.greenSecondary, Colors.blueSecondary]}></SectionContainer>
+    <SectionContainer sectionName="Golgari" cards={getCardsByColors(['G', 'B'])} showCard={showCard} sectionIcon="ms-guild-golgari" backgroundColor={[Colors.blackSecondary, Colors.greenSecondary]}></SectionContainer>
 
     <SectionContainer sectionName="Bant" cards={getCardsByColors(['W', 'U', 'G'])} showCard={showCard} sectionIcon="ms-watermark-brokers"></SectionContainer>
     <SectionContainer sectionName="Esper" cards={getCardsByColors(['W', 'U', 'B'])} showCard={showCard} sectionIcon="ms-watermark-obscura"></SectionContainer>
@@ -72,12 +73,10 @@
     position: relative;
     background-color: $background-color;
     margin: 0 auto;
-    padding: 0.5rem 2rem;
 
     @media screen and (max-width: 600px) {
       padding: 0.5rem;
     }
-    border: $content-border;
     margin-bottom: 2rem;
     
     h3 {

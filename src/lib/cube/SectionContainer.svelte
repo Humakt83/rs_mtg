@@ -1,9 +1,17 @@
-<script>
+<script lang="ts">
   import Section from './Section.svelte';
+  import { Colors } from '../colors';
+
   export let sectionName = "";
   export let sectionIcon = "";
   export let cards = [];
   export let showCard = (card) => null;
+  export let backgroundColor: string | Array<string> = Colors.whitePrimary;
+  export let highLightColor = Colors.whiteSecondary;
+  export let fontColor = Colors.blackPrimary;
+  if (Array.isArray(backgroundColor)) {
+    backgroundColor = `linear-gradient(to right, ${backgroundColor.join(', ')})`;
+  }
 
   function getCardsByType(other, cardType, omitType = 'Creature') {
     return other.filter(c => c?.types?.includes(cardType) && (cardType === omitType || !c?.types?.includes(omitType)));
@@ -22,17 +30,17 @@
 
 </script>
 
-<main>
+<main style:background={backgroundColor} style:border-color={highLightColor} style:color={fontColor}>
   <h4 class="section_title"><i class={'ms ms-3x ' + sectionIcon }/>{sectionName} {cards.length}</h4>
-  <Section cards={legends} name="Legendary Creature" showCard={showCard}></Section>
-  <Section cards={creatures} name="Creature" showCard={showCard}></Section>
-  <Section cards={enchantments} name="Enchantment" showCard={showCard}></Section>
-  <Section cards={artifacts} name="Artifact" showCard={showCard}></Section>
-  <Section cards={planeswalkers} name="Planeswalker" showCard={showCard}></Section>
-  <Section cards={sorceries} name="Sorcery" showCard={showCard}></Section>
-  <Section cards={instants} name="Instant" showCard={showCard}></Section>
-  <Section cards={lands} name="Other" showCard={showCard}></Section>
-  <Section cards={conspiracies} name="" showCard={showCard}></Section>
+  <Section cards={legends} name="Legendary Creature" showCard={showCard} borderColor={highLightColor}></Section>
+  <Section cards={creatures} name="Creature" showCard={showCard} borderColor={highLightColor}></Section>
+  <Section cards={enchantments} name="Enchantment" showCard={showCard} borderColor={highLightColor}></Section>
+  <Section cards={artifacts} name="Artifact" showCard={showCard} borderColor={highLightColor}></Section>
+  <Section cards={planeswalkers} name="Planeswalker" showCard={showCard} borderColor={highLightColor}></Section>
+  <Section cards={sorceries} name="Sorcery" showCard={showCard} borderColor={highLightColor}></Section>
+  <Section cards={instants} name="Instant" showCard={showCard} borderColor={highLightColor}></Section>
+  <Section cards={lands} name="Other" showCard={showCard} borderColor={highLightColor}></Section>
+  <Section cards={conspiracies} name="" showCard={showCard} borderColor={highLightColor}></Section>
 </main>
 
 <style lang="scss" scoped>

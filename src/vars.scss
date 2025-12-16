@@ -1,9 +1,22 @@
-$background-color: rgb(230,205,140);
-$background-color2: rgb(118,98,55);
-$color: rgb(33,33,33);
-$highlight-color: rgb(180,50,25);
-$paragraph-bg-color: wheat;
+$green-primary: rgb(0, 115, 62);
+$green-secondary: rgb(196, 211, 202);
 
-$background-gradient: repeating-linear-gradient(130deg, lighten($background-color, 15%), lighten($background-color2, 45%) 12%, darken($background-color, 5%) 2%);
+$blue-primary: rgb(14, 104, 171);
+$blue-secondary: rgb(179, 206, 234);
+
+$red-primary: rgb(211, 32, 42);
+$red-secondary: rgb(235, 159, 130);
+
+$white-primary: rgb(249, 250, 244);
+$white-secondary: rgb(248, 231, 185);
+
+$black-primary: rgb(21, 11, 0);
+$black-secondary: rgb(166, 159, 157);
+
+$background-color: $black-primary;
+$background-color2: $black-secondary;
+$color: $white-primary;
+$highlight-color: $white-secondary;
+$paragraph-bg-color: $white-primary;
 
 $content-border: 3px solid $highlight-color;

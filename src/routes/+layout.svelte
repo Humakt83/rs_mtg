@@ -15,9 +15,10 @@
   @import '../vars.scss';
 
   :root {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    font-family: Goudy, Matrix, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: $background-gradient;
+    background-color: $background-color;
+    font-size: 1.05rem;
   }
 
   :global(body) {

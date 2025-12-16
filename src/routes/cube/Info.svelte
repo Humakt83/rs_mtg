@@ -32,21 +32,21 @@
   main {
 
     button {
-        background-color: $background-color;
+        background-color: $background-color2;
         color: $color;
         border: $background-color;
         padding: 0.5rem 2rem;
         font-weight: bolder;
         border-radius: 2px;
         &:hover {
-            background-color: darken($background-color, 10);
+            background-color: darken($background-color2, 10);
         }
     }
 
     .info {
       position: relative;
-      background-color: $color;
-      color: $background-color;
+      background-color: $background-color;
+      color: $color;
       margin: 0 auto 1rem;
       padding: 0.5rem 2rem;
       border: $content-border;

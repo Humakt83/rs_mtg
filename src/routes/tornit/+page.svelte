@@ -17,7 +17,7 @@
   main {
     max-width: 90vw;
     position: relative;
-    background-color: $background-color;
+    background-color: $background-color2;
     margin: 0 auto;
     padding: 0.5rem 2rem;
 

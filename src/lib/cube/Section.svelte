@@ -1,13 +1,16 @@
 <script>
+    import { Colors } from "../colors";
+
   export let name = "";
   export let cards = [];
   export let showCard = (card) => null;
+  export let borderColor = Colors.whiteSecondary;
 </script>
 
 <main>
   {#if cards.length > 0}
     {#if name.length > 0}
-        <h5 class="section_title">{name} {cards.length}</h5>
+        <h5 class="section_title" style:border-color={borderColor}>{name} {cards.length}</h5>
     {/if}
     <div class="section">
         {#each cards as card}
