@@ -16,7 +16,9 @@
       Wizards <i class="ms ms-cost ms-u" />  
       Artifacts: <i class="ms ms-cost ms-c" /><i class="ms ms-cost ms-ci-5" />
       Elves: <i class="ms ms-cost ms-g" /><i class="ms ms-cost ms-b smaller" /><i class="ms ms-cost ms-u smaller" />
-      Spellslinger: <i class="ms ms-cost ms-u" /><i class="ms ms-cost ms-r" />
+      Tokens: <i class="ms ms-cost ms-g" /><i class="ms ms-cost ms-b" />
+      Sacrifice: <i class="ms ms-cost ms-b" />
+      Spellslinger: <i class="ms ms-cost ms-u"><i class="ms ms-cost ms-r" />
       Equipment: <i class="ms ms-cost ms-w" /><i class="ms ms-cost ms-r" /><i class="ms ms-cost ms-b" />
     </p>
     <button on:click={() => cardsInBooster = sampleBooster(cards)}>Sample Booster</button>
