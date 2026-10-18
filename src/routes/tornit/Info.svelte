@@ -1,7 +1,7 @@
 <script>
   import Booster from "$lib/draft/Booster.svelte";
   import {sampleBooster} from '$lib/draft/draft.util.ts';
-  export let cards;
+  export let cube;
 
   let cardsInBooster = [];
 
@@ -41,7 +41,7 @@
       Humans <i class="ms ms-cost ms-w" />
       Graveyard <i class="ms ms-cost ms-b" />
     </p>
-    <button on:click={() => cardsInBooster = sampleBooster(cards)}>Sample Booster</button>
+    <button on:click={() => cardsInBooster = sampleBooster(cube.cards)}>Sample Booster</button>
     {#if cardsInBooster.length > 0}
       <Booster cardsInBooster={cardsInBooster}/>
     {/if}

@@ -26,7 +26,7 @@ export class Draft {
       const booster = sampleBooster(cardsRemaining);
       this.boosters.push(booster);
       const pickedCards = booster.map(c => c.name);
-      cardsRemaining = cardsRemaining.filter(c => !pickedCards.includes(c.name));
+      cardsRemaining = cardsRemaining.filter(c => !pickedCards.includes(c?.name ?? ''));
     }
     this.boostersInRound = this.boosters.slice(0, this.players);
   }

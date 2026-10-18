@@ -6,14 +6,14 @@
   let cardToShow = null;
 
   function getCardsByColors(colors) {
-    return cube.filter(c => c?.colors?.length === colors.length && colors.every(color => c?.colors?.includes(color)));
+    return cube.cards.filter(c => c?.colors?.length === colors.length && colors.every(color => c?.colors?.includes(color)));
   }
 
-  const moreThan3 = cube.filter(c => c?.colors?.length > 3);
+  const moreThan3 = cube.cards.filter(c => c?.colors?.length > 3);
 
-  const lands = cube.filter(c => c?.types?.includes('Land'));
-  const conspiracies = cube.filter(c => c?.types?.includes('Conspiracy'));
-  const colorless = cube.filter(c => !c.colors && !c?.types?.includes('Land') && !c?.types?.includes('Conspiracy'));
+  const lands = cube.cards.filter(c => c?.types?.includes('Land'));
+  const conspiracies = cube.cards.filter(c => c?.types?.includes('Conspiracy'));
+  const colorless = cube.cards.filter(c => !c?.colors && !c?.types?.includes('Land') && !c?.types?.includes('Conspiracy'));
 
   function showCard(card) {
     cardToShow = card;

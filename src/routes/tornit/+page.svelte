@@ -1,14 +1,17 @@
 <script>
-  import cubeList from '$lib/resources/7-towers-cube.json';
+  import cubeList from '$lib/resources/7-towers-cube-v1.json';
   import Cube from '$lib/cube/Cube.svelte';
   import Info from './Info.svelte';
+  import {enrichCubeWithCards} from '$lib/cube-service.ts';
+
+  const completeList = enrichCubeWithCards(cubeList);
 
 </script>
 
 <main>
   <h3 class="cube_title" id="cube">7 Towers Cube</h3>
-  <Info cards={cubeList} />
-  <Cube cube={cubeList} />
+  <Info cube={completeList} />
+  <Cube cube={completeList} />
 </main>
 
 <style lang="scss" scoped>

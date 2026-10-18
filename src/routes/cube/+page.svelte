@@ -1,14 +1,18 @@
 <script>
-  import cubeList from '$lib/resources/cube.json';
+  import cubeList from '$lib/resources/commander-cube-v1.json';
   import Cube from '$lib/cube/Cube.svelte';
   import Info from './Info.svelte';
+
+  import {enrichCubeWithCards} from '$lib/cube-service.ts';
+
+  const completeList = enrichCubeWithCards(cubeList);
 
 </script>
 
 <main>
   <h3 class="cube_title" id="cube">Commander Cube</h3>
-  <Info cards={cubeList} />
-  <Cube cube={cubeList} />
+  <Info cube={completeList} />
+  <Cube cube={completeList} />
 </main>
 
 <style lang="scss" scoped>

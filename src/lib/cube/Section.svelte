@@ -2,7 +2,7 @@
     import { Colors } from "../colors";
 
   export let name = "";
-  export let cards = [];
+  export let cards = [];  
   export let showCard = (card) => null;
   export let borderColor = Colors.whiteSecondary;
 </script>

@@ -1,16 +1,21 @@
 <script>
-  import commanderCubeList from '$lib/resources/cube.json';
-  import towerCubeList from '$lib/resources/7-towers-cube.json';
+  import commanderCubeList from '$lib/resources/commander-cube-v1.json';
+  import towerCubeList from '$lib/resources/7-towers-cube-v1.json';
   import { Draft } from '$lib/draft/draft.util.ts';
+  import { enrichCubeWithCards } from '$lib/cube-service.ts';
   import DraftArea from './DraftArea.svelte';
 
-  let pickedCube = commanderCubeList;
+  const commanderCube = enrichCubeWithCards(commanderCubeList);
+  const towerCube = enrichCubeWithCards(towerCubeList);
+
+  let pickedCube = commanderCube;
   let started = false;
   let draft = null;
   
   function start() {
     started = true;
-    draft = new Draft(pickedCube);
+    console.log(pickedCube.cards[0]);
+    draft = new Draft(pickedCube.cards);
   }
 
 </script>
@@ -20,8 +25,8 @@
   <div class="controls">
     <label for="cube-picker">Pick Cube</label>
     <select name="cube-picker" bind:value={pickedCube}>
-      <option value={commanderCubeList}>Commander Cube</option>
-      <option value={towerCubeList}>7 Towers Cube</option>
+      <option value={commanderCube}>Commander Cube</option>
+      <option value={towerCube}>7 Towers Cube</option>
     </select>
     <button on:click={start}>{started ? 'Restart' : 'Start'}</button>
   </div>  
